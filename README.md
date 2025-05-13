@@ -99,4 +99,4 @@ This project is released under the MIT License.
 
 ---
 
-_Happy analyzing!_
+_Analyzed by James Muganzi💻_
