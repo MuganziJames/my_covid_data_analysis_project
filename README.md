@@ -1,4 +1,4 @@
-# COVID-19 Global Data Tracker
+# 🦠 COVID-19 Global Data Tracker
 
 A Jupyter Notebook–based project that analyzes global COVID-19 trends in cases, deaths, and vaccinations using data from [Our World in Data](https://covid.ourworldindata.org/data/owid-covid-data.csv).
 
