@@ -1,34 +1,102 @@
 # COVID-19 Global Data Tracker
 
-This project analyzes global COVID-19 data from **Our World in Data**, focusing on trends in cases, deaths, and vaccinations over time across selected countries.
+A Jupyter Notebook–based project that analyzes global COVID-19 trends in cases, deaths, and vaccinations using data from [Our World in Data](https://covid.ourworldindata.org/data/owid-covid-data.csv).
 
-## 📊 Project Objectives
+---
 
-- Import and clean real-world COVID-19 data
-- Analyze time trends for cases, deaths, and vaccinations
-- Visualize data using line charts, bar plots, and choropleth maps
-- Compare key metrics across countries
-- Present findings in a clear, well-commented Jupyter Notebook
+## 🔍 Features
 
-## 🗂️ Files Included
+- **Data Cleaning**  
+  Processes raw OWID CSV to produce a clean, analysis-ready dataset.
+- **Exploratory Data Analysis (EDA)**  
+  Time-series trends for cases, deaths, and vaccination rates.
+- **Comparative Analysis**  
+  Compare metrics across multiple countries.
+- **Visualizations**  
+  Line charts, bar plots, and choropleth maps generated in a Jupyter Notebook.
 
-- `covid_analysis.ipynb`: The main analysis notebook
-- `owid-covid-data.csv`: Dataset downloaded from [Our World In Data](https://covid.ourworldindata.org/data/owid-covid-data.csv)
-- `README.md`: This file
+---
 
-## 📦 Requirements
+## 🚀 Quick Start
 
-Make sure you have the following Python packages installed:
+### 1. Clone the repo
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
-- ipywidgets
+```bash
+git clone https://github.com/MuganziJames/my_covid_data_analysis_project.git
+cd my_covid_data_analysis_project
+```
 
-Install them by running:
+### 2. Create & activate a virtual environment
+
+```bash
+python3 -m venv venv
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+First, create a `requirements.txt` (if you don’t already have one):
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly ipywidgets
+pip freeze > requirements.txt
 ```
+
+Then install:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch the Notebook
+
+```bash
+jupyter notebook covid19_global_data_tracker.ipynb
+```
+
+---
+
+## 📂 Project Structure
+
+```
+my_covid_data_analysis_project/
+├── covid19_global_data_tracker.ipynb   # Main analysis notebook
+├── owid-covid-data.csv                  # Raw data from Our World in Data
+├── cleaned_covid_data.csv               # Cleaned dataset used in analysis
+├── requirements.txt                     # Python dependencies
+└── README.md                            # This file
+```
+
+---
+
+## 📋 Usage
+
+1. Open and run all cells in `covid19_global_data_tracker.ipynb`.
+2. Follow the notebook’s step-by-step analysis:
+   - Data loading & cleaning
+   - Time-series plotting
+   - Country comparisons
+   - Choropleth mapping
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m "Add some feature"`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is released under the MIT License.
+
+---
+
+_Happy analyzing!_
